@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Service Priority" max_length="40" name="x_34618_cars_service_priority" type="collection">
+        <element choice="1" label="Priority" max_length="255" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 - Critical" value="1"/>
+                <element inactive_on_update="false" label="2 - High" value="2"/>
+                <element inactive_on_update="false" label="3 - Medium" value="3"/>
+            </choice>
+        </element>
+        <element label="Vehicle" mandatory="true" max_length="255" name="vehicle" type="string"/>
+    </element>
+</database>
