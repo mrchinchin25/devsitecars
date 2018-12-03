@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="priority" table="x_34618_cars_service_priority2" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="vehicle" table="x_34618_cars_maintenance" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>priority</element>
+            <element>vehicle</element>
             <hint/>
             <inactive>false</inactive>
-            <label>1 - Critical</label>
+            <label>Vauxhall</label>
             <language>en</language>
-            <name>x_34618_cars_service_priority2</name>
+            <name>x_34618_cars_maintenance</name>
             <sequence/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-27 22:57:55</sys_created_on>
+            <sys_created_on>2018-11-28 15:35:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f931682d37022300c189435973990ea9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>908584b937822300c189435973990e4f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-27 22:57:55</sys_updated_on>
-            <value>1</value>
+            <sys_updated_on>2018-11-28 15:37:05</sys_updated_on>
+            <value>Vauxhall</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>priority</element>
+            <element>vehicle</element>
             <hint/>
             <inactive>false</inactive>
-            <label>2 - High</label>
+            <label>Volkswagen</label>
             <language>en</language>
-            <name>x_34618_cars_service_priority2</name>
+            <name>x_34618_cars_maintenance</name>
             <sequence/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-27 22:58:06</sys_created_on>
+            <sys_created_on>2018-11-28 15:35:08</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d531242d37022300c189435973990e63</sys_id>
+            <sys_id>366544b937822300c189435973990ee8</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-27 22:58:10</sys_updated_on>
-            <value>2</value>
+            <sys_updated_on>2018-11-28 15:37:10</sys_updated_on>
+            <value>Volkswagen</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <name>x_34618_cars_service_priority2</name>
+            <element>vehicle</element>
+            <name>x_34618_cars_maintenance</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-11-27 22:57:55</sys_created_on>
-            <sys_id>6041a82d37022300c189435973990e4e</sys_id>
+            <sys_created_on>2018-11-28 15:35:08</sys_created_on>
+            <sys_id>44858cb937822300c189435973990e41</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>priority</sys_name>
+            <sys_name>vehicle</sys_name>
             <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
             <sys_policy/>
             <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
-            <sys_update_name>sys_choice_x_34618_cars_service_priority2_priority</sys_update_name>
+            <sys_update_name>sys_choice_x_34618_cars_maintenance_vehicle</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-11-27 22:57:55</sys_updated_on>
+            <sys_updated_on>2018-11-28 15:35:08</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

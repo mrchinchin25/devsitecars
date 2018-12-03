@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Maintenance" max_length="40" name="x_34618_cars_maintenance" type="collection">
+    <element extends="task" label="Maintenance" max_length="40" name="x_34618_cars_maintenance" sizeclass="7" type="collection">
+        <element choice="1" label="Importance" max_length="676" name="importance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="1" value="Critical"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
         <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Request Number" max_length="40" name="request_number" type="string" use_dynamic_default="true"/>
-        <element label="Vehicle" mandatory="true" max_length="255" name="vehicle" type="string"/>
+        <element choice="3" default="Normal" label="User Type" mandatory="true" max_length="255" name="user_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Normal" value="Normal"/>
+                <element inactive_on_update="false" label="VIP" value="VIP"/>
+            </choice>
+        </element>
+        <element choice="1" label="Vehicle" mandatory="true" max_length="255" name="vehicle" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Vauxhall" value="Vauxhall"/>
+                <element inactive_on_update="false" label="Volkswagen" value="Volkswagen"/>
+            </choice>
+        </element>
     </element>
 </database>

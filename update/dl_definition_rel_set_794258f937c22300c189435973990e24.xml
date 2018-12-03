@@ -3,20 +3,20 @@
         <always_replace>true</always_replace>
         <dl_definition display_value="Service Priority">a2816c2d37022300c189435973990e32</dl_definition>
         <matcher_table>x_34618_cars_service_priority2</matcher_table>
-        <matcher_table_field>priority</matcher_table_field>
+        <matcher_table_field>importance</matcher_table_field>
         <source_table>x_34618_cars_maintenance</source_table>
-        <source_table_field>priority</source_table_field>
+        <source_table_field>importance</source_table_field>
         <sys_class_name>dl_definition_rel_set</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-27 23:02:09</sys_created_on>
-        <sys_id>4c32a06d37022300c189435973990ee3</sys_id>
+        <sys_created_on>2018-11-28 16:31:08</sys_created_on>
+        <sys_id>794258f937c22300c189435973990e24</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>priority</sys_name>
+        <sys_name>importance</sys_name>
         <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
         <sys_policy/>
         <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
-        <sys_update_name>dl_definition_rel_set_4c32a06d37022300c189435973990ee3</sys_update_name>
+        <sys_update_name>dl_definition_rel_set_794258f937c22300c189435973990e24</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-27 23:02:09</sys_updated_on>
+        <sys_updated_on>2018-11-28 16:31:08</sys_updated_on>
     </dl_definition_rel_set>
 </record_update>

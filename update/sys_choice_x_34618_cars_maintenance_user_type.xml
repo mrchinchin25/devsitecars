@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="user_type" table="x_34618_cars_maintenance" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Normal</label>
+            <language>en</language>
+            <name>x_34618_cars_maintenance</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-28 10:45:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8113076537022300c189435973990e04</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 10:48:28</sys_updated_on>
+            <value>Normal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VIP</label>
+            <language>en</language>
+            <name>x_34618_cars_maintenance</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-28 10:44:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6f2c36537022300c189435973990e94</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-29 10:48:33</sys_updated_on>
+            <value>VIP</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>user_type</element>
+            <name>x_34618_cars_maintenance</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-28 10:44:40</sys_created_on>
+            <sys_id>2d03cb2537022300c189435973990e6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>user_type</sys_name>
+            <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
+            <sys_update_name>sys_choice_x_34618_cars_maintenance_user_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-28 10:44:40</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
