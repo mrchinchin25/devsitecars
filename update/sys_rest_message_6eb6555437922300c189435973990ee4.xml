@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>no_authentication</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description/>
+        <name>CarQuery2</name>
+        <oauth2_profile/>
+        <protocol_name/>
+        <rest_endpoint>https://www.carqueryapi.com/api/0.3/?callback=?&amp;cmd=getModels&amp;make=ford&amp;year=2005&amp;sold_in_us=1&amp;body=SUV</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-06 15:55:04</sys_created_on>
+        <sys_id>6eb6555437922300c189435973990ee4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CarQuery2</sys_name>
+        <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
+        <sys_update_name>sys_rest_message_6eb6555437922300c189435973990ee4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-06 15:55:04</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>
