@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Service Priority" max_length="40" name="x_34618_cars_service_priority" type="collection">
-        <element label="Important" max_length="77" name="importance" type="string"/>
+        <element label="Importance" max_length="77" name="importance" type="string"/>
         <element choice="1" label="Priority" max_length="255" name="priority" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1 - Critical" value="1"/>
