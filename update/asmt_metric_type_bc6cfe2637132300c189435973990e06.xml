@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule display_value="Auto business rule for Assessments">849c726637132300c189435973990e0a</business_rule>
+        <condition/>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule display_value="Auto deletion rule for Assessments">189c726637132300c189435973990e45</delete_business_rule>
+        <description/>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>none</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>x_34618_cars_maintenance</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>CAR metric type</name>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <sample_metric/>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-01 16:08:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc6cfe2637132300c189435973990e06</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CAR metric type</sys_name>
+        <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
+        <sys_update_name>asmt_metric_type_bc6cfe2637132300c189435973990e06</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 16:20:48</sys_updated_on>
+        <table>x_34618_cars_maintenance</table>
+        <url/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc6cfe2637132300c189435973990e06"/>
+</record_update>

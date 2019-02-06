@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="INSERT_OR_UPDATE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="CAR metric type">bc6cfe2637132300c189435973990e06</metric_type>
+        <name>Car Assessment</name>
+        <order>1</order>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-01 16:18:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1bef6a637132300c189435973990e6a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Car Assessment</sys_name>
+        <sys_package display_value="cars" source="x_34618_cars">b599586137022300c189435973990e0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="cars">b599586137022300c189435973990e0a</sys_scope>
+        <sys_update_name>asmt_metric_category_d1bef6a637132300c189435973990e6a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 16:31:13</sys_updated_on>
+        <table>x_34618_cars_maintenance</table>
+        <total_metrics>2</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=d1bef6a637132300c189435973990e6a"/>
+</record_update>
